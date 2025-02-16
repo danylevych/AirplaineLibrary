@@ -7,7 +7,7 @@ public class Airplane
     public string Company { get; }
     public double MaxAltitude { get; }
     public double MaxSpeed { get; }
-    public string FlightNumber { get; set; }
+    public string? FlightNumber { get; set; }
     private double currentSpeed;
 
     public Airplane(string model, double wingSpan, string company, double maxAltitude, double maxSpeed)
