@@ -33,6 +33,14 @@ dotnet add reference ../AirplaneLibrary/AirplaneLibrary.csproj
 dotnet run
 ```
 
+## Testing
+Run the following command to run the tests:
+```bash
+cd AirplaneTests
+dotnet test
+```
+
+
 ## Features
 - The library contains the `Airplane` class that represents an airplane.
 - The library contains the `CargoAirplane` class that represent a cargo ariplane.
